@@ -1,0 +1,113 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    min-width: 100%;
+   
+}
+
+.navbar-brand{
+    margin-left: 5% !important;
+}
+
+.navbar-nav{
+    margin-left: 85% !important;
+    
+}
+
+.product-section{
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.productCard-1{
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.6); 
+box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.6);
+        border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.product{
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.ProductCard{
+    height: 100%;
+    width: 100%;
+    box-shadow: 11px 12px 5px -6px rgba(143,137,137,0.74);
+    -webkit-box-shadow: 11px 12px 5px -6px rgba(143,137,137,0.74);
+    -moz-box-shadow: 11px 12px 5px -6px rgba(143,137,137,0.74);
+        border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.product-img{
+    width: 100%;
+    margin-top: 1rem;;
+}
+
+.explore-btn{
+    padding: 1rem;
+    margin-top: 4%;
+    border-radius: .5rem;
+    background-color:rgb(36, 67, 107) ;
+    color: beige;
+    font-size: larger;
+    font-weight: 500;
+    transition: .5s ease all ;
+    opacity: 8.9;
+}
+
+.explore-btn:hover{
+    cursor: pointer;
+    background-color:rgb(27, 49, 78);
+    font-weight: 550;
+    letter-spacing: 3px;
+}
+
+.own-btn{
+    padding: 1rem;
+    margin-top: 4%;
+    border-radius: .5rem;
+    background-color:rgb(36, 67, 107) ;
+    color: beige;
+    font-size: larger;
+    font-weight: 500;
+    transition: .5s ease all ;
+    opacity: 8.9;
+    margin-bottom: 1rem;
+}
+.own-btn:hover{
+    cursor: pointer;
+    background-color:rgb(27, 49, 78);
+    font-weight: 550;
+    letter-spacing: 3px;
+}
+
+.create{
+    color: rgb(7, 7, 7);
+     font-size: larger;
+     margin-left: 5%;
+     margin-top: 4%;
+     color: beige;
+}
+
+.add-button{
+    display: flex ;
+    flex-direction: row ;
+    padding: 10%;
+    background-color:rgb(41, 75, 121) ;
+    color: beige;
+    border-radius: 5%;
+}
